@@ -68,6 +68,16 @@ class FriendlyMessageAdapter(
     inner class MessageViewHolder(private val binding: MessageBinding) : ViewHolder(binding.root) {
         fun bind(item: FriendlyMessage) {
             // TODO: implement
+            binding.messageTextView.text = item.text
+            setTextColor(item.name, binding.messageTextView)
+
+            binding.messengerTextView.text = if (item.name == null) ANONYMOUS else item.name
+            if (item.photoUrl != null) {
+                loadImageIntoView(binding.messengerImageView, item.photoUrl!!)
+            } else {
+                binding.messengerImageView.setImageResource(R.drawable.ic_account_circle_black_36dp)
+            }
+
         }
 
         private fun setTextColor(userName: String?, textView: TextView) {
@@ -85,6 +95,15 @@ class FriendlyMessageAdapter(
         ViewHolder(binding.root) {
         fun bind(item: FriendlyMessage) {
             // TODO: implement
+            loadImageIntoView(binding.messageImageView, item.imageUrl!!)
+
+            binding.messengerTextView.text = if (item.name == null) ANONYMOUS else item.name
+            if (item.photoUrl != null) {
+                loadImageIntoView(binding.messengerImageView, item.photoUrl!!)
+            } else {
+                binding.messengerImageView.setImageResource(R.drawable.ic_account_circle_black_36dp)
+            }
+
         }
     }
 
