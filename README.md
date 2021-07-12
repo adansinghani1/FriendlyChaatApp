@@ -7,6 +7,7 @@ To get started open the codelab instructions:
 
  - [Build FriendlyChat Codelab](https://firebase.google.com/codelabs/firebase-android/)
 
+![image](https://user-images.githubusercontent.com/60675989/125226793-bd632180-e29f-11eb-82ec-1dc38fdc041f.png)
 
 
 
@@ -14,6 +15,7 @@ To get started open the codelab instructions:
 Download or clone the repository locally onto your hardrive  
 Build the project  
 After it is build, type this command into your terminal "firebase emulators:start --project=demo-friendlychat" (you will be able to see realtime database)  
+The command above will use the firbase.json file and start the emulator and will give you a local port whjich you can access the firebase emulator  (see status or authentication, cloud messaging, etc.)
 Once cloned, you should be able to press the play button or go on the "Run" tab on the tool bar and press run 'build-android-start.app'  
 ** make sure your gradle is 6.7.1 or change it in the gradle-wrapper.properties to 6.7.1. I had to move the gradle-wrapper-properties file outside in the main FriendlyChat folder. **
 
