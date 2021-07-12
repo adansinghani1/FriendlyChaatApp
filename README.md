@@ -2,7 +2,8 @@
 
 [![Actions Status][gh-actions-badge]][gh-actions]
 
-This is the source code for the Firebase FriendlyChat codelabs. To get started open the codelab instructions:
+This is my complete version of the Firebase FriendlyChat App from codelabs. Function is to be able to use a login from either Google or Your email and you can create an account and start being able to message other people. I show in the demo I liked my personal google account as well as an account I made locally using my email address and created a screen name being my first and last name (but you can make that anything you want I suppose) and a password.
+To get started open the codelab instructions:
 
  - [Build FriendlyChat Codelab](https://firebase.google.com/codelabs/firebase-android/)
 
