@@ -7,8 +7,8 @@ This is the source code for the Firebase FriendlyChat codelabs. To get started o
  - [Build FriendlyChat Codelab](https://firebase.google.com/codelabs/firebase-android/)
 
 
-## How to make contributions?
-Please read and follow the steps in the [CONTRIBUTING.md](CONTRIBUTING.md)
+## What is updated?
+Everything is runnable (you can check). I even provided a demo of how it worked. Thank you for your patience for the assignment. I have been trying my best to keep up.
 
 
 ## License
