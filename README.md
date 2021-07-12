@@ -18,8 +18,9 @@ Once cloned, you should be able to press the play button or go on the "Run" tab 
 
 
 ## What is updated?
-Everything is runnable (you can check). I even provided a demo of how it worked. Thank you for your patience for the assignment. I have been trying my best to keep up.
-https://www.youtube.com/watch?v=I-_bgoH61_U
+Everything is runnable (you can check). I even provided a demo of how it worked. Thank you for your patience for the assignment. I have been trying my best to keep up.  
+
+Demo Link: https://www.youtube.com/watch?v=I-_bgoH61_U
 
 
 ## License
