@@ -13,6 +13,7 @@ To get started open the codelab instructions:
 
 ## Instructions to Start the App:
 Download or clone the repository locally onto your hardrive  
+Wait for the files to load into directory  
 Build the project  
 After it is build, type this command into your terminal "firebase emulators:start --project=demo-friendlychat" (you will be able to see realtime database)  
 The command above will use the firbase.json file and start the emulator and will give you a local port whjich you can access the firebase emulator  (see status or authentication, cloud messaging, etc.)
